@@ -7,6 +7,7 @@ module V1
     end
 
     def show
+      # render json: {status: 'Created', message: 'Customer was created', data: @customer}, status: :ok
     end
 
     def create
