@@ -1,3 +1,3 @@
 json.array! @customers do |customer|
-  json.partial! '/customer', customer: customer
+  json.partial! 'v1/customers/customer', customer: customer
 end

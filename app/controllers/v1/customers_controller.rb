@@ -3,7 +3,7 @@ module V1
     before_action :set_customer, only: [:show, :update, :destroy]
     def index
       @customers = Customer.all
-      render json: @customers, status: :ok
+      #render json: @customers, status: :ok
     end
 
     def show
